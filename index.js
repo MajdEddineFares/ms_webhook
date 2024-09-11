@@ -8,9 +8,9 @@ const port = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 
-// Replace with your verification token
-const VERIFY_TOKEN = 'potatoai';
-const PAGE_ACCESS_TOKEN = process.env.PAGE_ACCESS_TOKEN || 'EAAPU64ObztsBOwI4CG0AAE8YLWSZBJlstSk9w6g3n3nx9N7FXOFbtJ4kW2zrjDltgThSn8bP9u02atWGdODtXMAwBkmTw5xJ2AjsRXZCoduxKurxRnyJI9jvXaZCee27aIioZCr7WQZC4x4buWmUXZB9ygQGApHwZCapi9cPNB4ybgHJm4tmowDZBYe5ZCiy63b063592jijcVZCiuMVT3RgZDZD'; // Add your page access token here
+
+const VERIFY_TOKEN = '';
+const PAGE_ACCESS_TOKEN = process.env.PAGE_ACCESS_TOKEN || ''; // Add your page access token here
 
 app.get('/webhook', (req, res) => {
   const mode = req.query['hub.mode'];
