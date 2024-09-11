@@ -6,7 +6,7 @@ import json
 message = sys.argv[1]
 
 # Your API key
-API_KEY = 'AIzaSyANexo1c3EWLYCHvcUisRWPiehYBMTi7LU'
+API_KEY = ''
 url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={API_KEY}"
 
 # Set up the payload for the Gemini API request
