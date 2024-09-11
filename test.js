@@ -1,8 +1,8 @@
 const axios = require('axios');
 
 // Replace with your Page Access Token and the recipient's PSID
-const PAGE_ACCESS_TOKEN = 'EAAPU64ObztsBOwI4CG0AAE8YLWSZBJlstSk9w6g3n3nx9N7FXOFbtJ4kW2zrjDltgThSn8bP9u02atWGdODtXMAwBkmTw5xJ2AjsRXZCoduxKurxRnyJI9jvXaZCee27aIioZCr7WQZC4x4buWmUXZB9ygQGApHwZCapi9cPNB4ybgHJm4tmowDZBYe5ZCiy63b063592jijcVZCiuMVT3RgZDZD';
-const RECIPIENT_PSID = '118342752905676'; // Page-scoped User ID
+const PAGE_ACCESS_TOKEN = '';
+const RECIPIENT_PSID = ''; // Page-scoped User ID
 
 // Function to send a message
 async function sendMessage(recipientId, messageText) {
